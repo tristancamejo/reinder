@@ -1,0 +1,22 @@
+{
+  "name": "reinder",
+  "version": "1.0.0",
+  "description": "Tinder, but for archiving GitHub repositories around.",
+  "main": "index.js",
+  "bin": "./index.js",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "Tristan Camejo",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.7",
+    "octokit": "^2.1.0",
+    "ora": "^6.3.1"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  }
+}
